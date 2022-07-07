@@ -36,7 +36,7 @@ export async function getServerSideProps({query}) {
 
     const {search} = query;
     
-    const searchResponse = await fetch('http://localhost:3000/api/items?q=' + search);
+    const searchResponse = await fetch(process.env.API_URL + 'api/items?q=' + search);
     const searchResults = await searchResponse.json();
     
     console.log('find!');
