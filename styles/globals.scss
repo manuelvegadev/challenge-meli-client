@@ -1,0 +1,17 @@
+@import 'variables.module.scss';
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap-grid';
+
+html,
+body {
+  
+  background-color: $light-gray !important;
+  color: $dark-gray !important;
+  
+}
+
+body {
+  
+  padding-bottom: 3rem;
+  
+}

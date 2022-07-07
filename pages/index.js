@@ -1,5 +1,4 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css'
+import Head      from 'next/head';
 
 export default function Home() {
     return (
@@ -7,7 +6,6 @@ export default function Home() {
             <Head>
                 <title>Mercado Libre Challenge</title>
             </Head>
-            <h1 className={styles.title}>Home page</h1>
         </>
     );
 }
